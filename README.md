@@ -1,9 +1,9 @@
-# PowerQuery
+# PowerQuery: Auto Generating Date Parameters for PowerBI and Excel
 DatesM
 
 
 
-let
+ let
     Source = List.Dates(#date(2014,1,1),Duration.Days(#date(2016,12,31)-#date(2014,1,1
 )),#duration(1,0,0,0)),
     #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
