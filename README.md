@@ -1,7 +1,7 @@
 # PowerQuery: Auto Generating Date Parameters for PowerBI and Excel
 DatesM
 
-
+--Copy from line 6 to line 23--
 
  let
     Source = List.Dates(#date(2014,1,1),Duration.Days(#date(2016,12,31)-#date(2014,1,1
